@@ -1,0 +1,28 @@
+{
+  "license": "MIT",
+  "file_hash": null,
+  "name": "Dynamo JuanMCLibrary - ZeroTouch",
+  "version": "1.0.0",
+  "description": "First release of a collection of JuanMCillerLibrary ZeroTouchNode",
+  "group": "",
+  "keywords": [
+    "juanmciller"
+  ],
+  "dependencies": [],
+  "host_dependencies": [
+    "Revit",
+    "Civil 3D"
+  ],
+  "contents": "",
+  "engine_version": "2.19.3.6394",
+  "engine": "dynamo",
+  "engine_metadata": "",
+  "site_url": "https://www.linkedin.com/in/juanmartinezciller/",
+  "repository_url": "https://github.com/juanmciller/ZeroTouchNodeJMCiller",
+  "contains_binaries": true,
+  "node_libraries": [
+    "JuanMCillerLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "copyright_holder": "Juan Martinez Ciller",
+  "copyright_year": "2024"
+}
