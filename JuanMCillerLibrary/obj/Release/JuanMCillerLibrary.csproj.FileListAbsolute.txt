@@ -1,0 +1,7 @@
+C:\Users\Juan\Documents\GitHub\ZeroTouchNodeJMCiller\JuanMCillerLibrary\bin\Release\JuanMCillerLibrary.dll.config
+C:\Users\Juan\Documents\GitHub\ZeroTouchNodeJMCiller\JuanMCillerLibrary\bin\Release\JuanMCillerLibrary.dll
+C:\Users\Juan\Documents\GitHub\ZeroTouchNodeJMCiller\JuanMCillerLibrary\bin\Release\JuanMCillerLibrary.pdb
+C:\Users\Juan\Documents\GitHub\ZeroTouchNodeJMCiller\JuanMCillerLibrary\obj\Release\JuanMCillerLibrary.csproj.AssemblyReference.cache
+C:\Users\Juan\Documents\GitHub\ZeroTouchNodeJMCiller\JuanMCillerLibrary\obj\Release\JuanMCillerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Documents\GitHub\ZeroTouchNodeJMCiller\JuanMCillerLibrary\obj\Release\JuanMCillerLibrary.dll
+C:\Users\Juan\Documents\GitHub\ZeroTouchNodeJMCiller\JuanMCillerLibrary\obj\Release\JuanMCillerLibrary.pdb

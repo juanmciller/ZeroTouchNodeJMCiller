@@ -181,8 +181,28 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /Y "$(TargetDir)*.*" "$(AppData)\Dynamo\Dynamo Core\2.19\packages\$(ProjectName)\bin\"
-
-xcopy /Y "$(ProjectDir)pkg.json" "$(AppData)\Dynamo\Dynamo Core\2.19\packages\$(ProjectName)"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
+	<Target Name="AfterBuild">
+		<ItemGroup>
+			<Dlls Include="$(OutDir)*.dll" />
+			<Pdbs Include="$(OutDir)*.pdb" />
+			<Xmls Include="$(OutDir)*.xml" />
+			<Configs Include="$(OutDir)*.config" />
+			<PkgJson Include="$(ProjectDir)/*pkg.json" />
+			<SourcePackage Include="$(SolutionDir)dist\$(PackageName)\**\*" />
+		</ItemGroup>
+		<!-- This copies every file to a dist folder on the solutions directory -->
+		<Copy SourceFiles="@(Dlls)" DestinationFolder="$(SolutionDir)dist\$(ProjectName)\bin\" />
+		<Copy SourceFiles="@(Pdbs)" DestinationFolder="$(SolutionDir)dist\$(ProjectName)\bin\" />
+		<Copy SourceFiles="@(Xmls)" DestinationFolder="$(SolutionDir)dist\$(ProjectName)\bin\" />
+		<Copy SourceFiles="@(Configs)" DestinationFolder="$(SolutionDir)dist\$(ProjectName)\bin\" />
+		<Copy SourceFiles="@(PkgJson)" DestinationFolder="$(SolutionDir)dist\$(ProjectName)" />
+		<MakeDir Directories="$(SolutionDir)dist\$(ProjectName)\dyf" />
+		<MakeDir Directories="$(SolutionDir)dist\$(ProjectName)\extra" />
+
+		<!-- This copies the distributed package on dist folder to the Dynamo Packages folder. -->
+		<Copy SourceFiles="@(SourcePackage)" DestinationFolder="$(AppData)\Dynamo\Dynamo Core\2.19\packages\$(PackageName)\%(RecursiveDir)" />
+	</Target>
 </Project>
