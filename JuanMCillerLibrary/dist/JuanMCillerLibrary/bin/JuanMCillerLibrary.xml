@@ -4,17 +4,32 @@
         <name>JuanMCillerLibrary</name>
     </assembly>
     <members>
-        <member name="T:JuanMCillerLibrary.HelloDynamo">
+        <member name="T:JuanMCillerLibrary.MyFirstNode">
             <summary>
             
             </summary>
         </member>
-        <member name="M:JuanMCillerLibrary.HelloDynamo.SayHello(System.String)">
+        <member name="M:JuanMCillerLibrary.MyFirstNode.GetDataType(System.Object)">
             <summary>
-            
+            This is our first method to retrieve the Data Type of an input.
             </summary>
-            <param name="name"></param>
-            <returns></returns>
+            <param name="myVariable">This variable can be whatever input data type.</param>
+            <returns>A C# Data type</returns>
+        </member>
+        <member name="M:JuanMCillerLibrary.Strings.ConcatenateStrings(System.String,System.String)">
+            <summary>
+            This is a method to concatenate two strings.
+            </summary>
+            <param name="myString1">My first string input.</param>
+            <param name="myString2">My second string input.</param>
+            <returns>The result of merging two string inputs.</returns>
+        </member>
+        <member name="M:JuanMCillerLibrary.Strings.GetStringLength(System.String)">
+            <summary>
+            This code gets the length of a string.
+            </summary>
+            <param name="myString">String input.</param>
+            <returns>Returns an integer.</returns>
         </member>
     </members>
 </doc>
