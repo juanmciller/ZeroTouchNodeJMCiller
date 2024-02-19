@@ -4,6 +4,24 @@
         <name>JuanMCillerLibrary</name>
     </assembly>
     <members>
+        <member name="M:JuanMCillerLibrary.ForLoop.CompareWithTarget(System.Collections.Generic.List{System.Double},System.Double)">
+            <summary>
+            Compare a list of numbers with a target.
+            </summary>
+            <param name="numbers">Numbers to compare with a target.</param>
+            <param name="target">Target value.</param>
+            <returns>A list of strings describing the comparison results.</returns>
+        </member>
+        <member name="M:JuanMCillerLibrary.IFStatement.GetTestResult(System.String,System.Double,System.Double,System.Double)">
+            <summary>
+            Method to get the average of a 3-test exam.
+            </summary>
+            <param name="student">Name of the student.</param>
+            <param name="testA">First mark.</param>
+            <param name="testB">Second mark.</param>
+            <param name="testC">Third mark.</param>
+            <returns>Result of the exam.</returns>
+        </member>
         <member name="T:JuanMCillerLibrary.MyFirstNode">
             <summary>
             
@@ -15,6 +33,19 @@
             </summary>
             <param name="myVariable">This variable can be whatever input data type.</param>
             <returns>A C# Data type</returns>
+        </member>
+        <member name="T:JuanMCillerLibrary.Numbers">
+            <summary>
+            This is my Numbers class.
+            </summary>
+        </member>
+        <member name="M:JuanMCillerLibrary.Numbers.ReturnMathOperation(System.Double,System.Double)">
+            <summary>
+            This node executes the sum and product of two values.
+            </summary>
+            <param name="firstValue">First value of the math operation.</param>
+            <param name="lastVAlue">Second value of the math operation.</param>
+            <returns>Returns a dictionary containing the sum and product of the two input values.</returns>
         </member>
         <member name="M:JuanMCillerLibrary.Strings.ConcatenateStrings(System.String,System.String)">
             <summary>
@@ -30,6 +61,20 @@
             </summary>
             <param name="myString">String input.</param>
             <returns>Returns an integer.</returns>
+        </member>
+        <member name="M:JuanMCillerLibrary.Switch.SwitchStatement(System.Int32)">
+            <summary>
+            Method to outcome switch values.
+            </summary>
+            <param name="number">Number to be processed within the Switch statement.</param>
+            <returns></returns>
+        </member>
+        <member name="M:JuanMCillerLibrary.WhileLoop.PrintEvenNumbers(System.Int32)">
+            <summary>
+            Method to print even and odd numbers.
+            </summary>
+            <param name="limit"></param>
+            <returns>List with all the odd and even numbers</returns>
         </member>
     </members>
 </doc>
