@@ -168,13 +168,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CsharpBasics\BreakContinue.cs" />
     <Compile Include="CsharpBasics\Car.cs" />
+    <Compile Include="CsharpBasics\Dictionaries.cs" />
     <Compile Include="CsharpBasics\ForLoop.cs" />
     <Compile Include="CsharpBasics\IFStatement.cs" />
     <Compile Include="CsharpBasics\MyFirstNode.cs" />
     <Compile Include="CsharpBasics\Numbers.cs" />
     <Compile Include="CsharpBasics\Strings.cs" />
     <Compile Include="CsharpBasics\Switch.cs" />
+    <Compile Include="CsharpBasics\TryCatch.cs" />
     <Compile Include="CsharpBasics\WhileLoop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

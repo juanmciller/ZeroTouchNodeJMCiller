@@ -4,6 +4,33 @@
         <name>JuanMCillerLibrary</name>
     </assembly>
     <members>
+        <member name="M:JuanMCillerLibrary.BreakContinue.FilteringOddNumbers(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            This method filters odd numbers from the list.
+            </summary>
+            <param name="numbers">List of numbers</param>
+            <returns>List with odd numbers</returns>
+        </member>
+        <member name="T:JuanMCillerLibrary.Dictionaries">
+            <summary>
+            Contains methods related to dictionaries.
+            </summary>
+        </member>
+        <member name="M:JuanMCillerLibrary.Dictionaries.CreateDictionary(System.String[],System.Object[])">
+            <summary>
+            Creates a dictionary from arrays of keys and values.
+            </summary>
+            <param name="keys">Array of keys.</param>
+            <param name="values">Array of values.</param>
+            <returns>The dictionary containing the key-value pairs.</returns>
+        </member>
+        <member name="M:JuanMCillerLibrary.Dictionaries.GetListAllowedEntrants(System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}})">
+            <summary>
+            Generates a list of messages indicating whether each person is allowed to enter the club based on their name and age.
+            </summary>
+            <param name="people">A list of dictionaries representing people with "Name" and "Age" keys.</param>
+            <returns>A list of strings containing messages about whether each person is allowed to enter the club.</returns>
+        </member>
         <member name="M:JuanMCillerLibrary.ForLoop.CompareWithTarget(System.Collections.Generic.List{System.Double},System.Double)">
             <summary>
             Compare a list of numbers with a target.
@@ -68,6 +95,21 @@
             </summary>
             <param name="number">Number to be processed within the Switch statement.</param>
             <returns></returns>
+        </member>
+        <member name="M:JuanMCillerLibrary.TryCatch.CatchJuan(System.Collections.Generic.List{System.String})">
+            <summary>
+            Method to check if a list of names contains "Juan" and generate a result for each name.
+            </summary>
+            <param name="names">List of names to be checked</param>
+            <returns>List of strings containing the result for each name</returns>
+        </member>
+        <member name="M:JuanMCillerLibrary.TryCatch.Division(System.Int32,System.Int32)">
+            <summary>
+            Performs division operation on two input numbers and returns the result as a string.
+            </summary>
+            <param name="input1">The first input number.</param>
+            <param name="input2">The second input number.</param>
+            <returns>A string containing the result of the division operation or an error message.</returns>
         </member>
         <member name="M:JuanMCillerLibrary.WhileLoop.PrintEvenNumbers(System.Int32)">
             <summary>
