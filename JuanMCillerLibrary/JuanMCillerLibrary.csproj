@@ -179,6 +179,7 @@
     <Compile Include="CsharpBasics\Switch.cs" />
     <Compile Include="CsharpBasics\TryCatch.cs" />
     <Compile Include="CsharpBasics\WhileLoop.cs" />
+    <Compile Include="DynamoGeometries\CreatePoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -189,6 +190,7 @@
     <None Include="packages.config" />
     <None Include="pkg.json" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

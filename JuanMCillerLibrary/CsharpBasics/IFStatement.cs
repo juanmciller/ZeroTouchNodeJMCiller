@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace JuanMCillerLibrary
+﻿namespace CsharpBasics
 {
     // Namespace declaration for the library
     public class IFStatement

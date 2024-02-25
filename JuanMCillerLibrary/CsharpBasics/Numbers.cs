@@ -1,7 +1,7 @@
 ﻿using Autodesk.DesignScript.Runtime;
 using System.Collections.Generic;
 
-namespace JuanMCillerLibrary
+namespace CsharpBasics
 {
     /// <summary>
     /// This is my Numbers class.

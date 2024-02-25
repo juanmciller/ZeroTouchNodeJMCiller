@@ -1,4 +1,4 @@
-﻿namespace JuanMCillerLibrary
+﻿namespace CsharpBasics
 {
     public class Strings
     {

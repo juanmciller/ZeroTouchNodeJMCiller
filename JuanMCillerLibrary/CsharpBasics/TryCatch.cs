@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace JuanMCillerLibrary
+namespace CsharpBasics
 {
     public class TryCatch
     {

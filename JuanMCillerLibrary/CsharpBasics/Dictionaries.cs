@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace JuanMCillerLibrary
+namespace CsharpBasics
 {
     /// <summary>
     /// Contains methods related to dictionaries.
