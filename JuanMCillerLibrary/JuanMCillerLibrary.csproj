@@ -180,6 +180,7 @@
     <Compile Include="CsharpBasics\TryCatch.cs" />
     <Compile Include="CsharpBasics\WhileLoop.cs" />
     <Compile Include="DynamoGeometries\CreatePoint.cs" />
+    <Compile Include="DynamoGeometries\MyLine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

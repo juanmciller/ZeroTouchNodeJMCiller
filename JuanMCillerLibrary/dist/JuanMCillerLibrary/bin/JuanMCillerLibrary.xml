@@ -167,5 +167,74 @@
             <param name="point">The point to be deconstructed.</param>
             <returns>A dictionary containing the X, Y, and Z coordinates of the point.</returns>
         </member>
+        <member name="T:DynamoGeometries.MyLine">
+            <summary>
+            Represents a line segment defined by two points.
+            </summary>
+        </member>
+        <member name="P:DynamoGeometries.MyLine.StartPoint">
+            <summary>
+            Gets or sets the start point of the line segment.
+            </summary>
+        </member>
+        <member name="P:DynamoGeometries.MyLine.EndPoint">
+            <summary>
+            Gets or sets the end point of the line segment.
+            </summary>
+        </member>
+        <member name="P:DynamoGeometries.MyLine.MidPoint">
+            <summary>
+            Gets the midpoint of the line segment.
+            </summary>
+        </member>
+        <member name="P:DynamoGeometries.MyLine.MySegment">
+            <summary>
+            Gets or sets the line segment.
+            </summary>
+        </member>
+        <member name="P:DynamoGeometries.MyLine.Length">
+            <summary>
+            Gets or sets the length of the line segment.
+            </summary>
+        </member>
+        <member name="M:DynamoGeometries.MyLine.#ctor(Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point)">
+            <summary>
+            Constructs a new instance of MyLine.
+            </summary>
+            <param name="startPoint">The start point of the line segment.</param>
+            <param name="endPoint">The end point of the line segment.</param>
+        </member>
+        <member name="M:DynamoGeometries.MyLine.CreateLine(Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point)">
+            <summary>
+            Creates a new instance of MyLine with specified start and end points.
+            </summary>
+            <param name="startPoint">The start point of the line segment.</param>
+            <param name="endPoint">The end point of the line segment.</param>
+            <returns>A new instance of MyLine.</returns>
+        </member>
+        <member name="M:DynamoGeometries.MyLine.CreatePerpendicularAtParameter(Autodesk.DesignScript.Geometry.Line,System.Double,System.Double)">
+            <summary>
+            Creates a perpendicular line at the specified parameter on the given line.
+            </summary>
+            <param name="myLine">The original line.</param>
+            <param name="myParameter">The parameter on the original line where the perpendicular line is to be obtained.</param>
+            <param name="length">The length of the perpendicular line (default is 1).</param>
+            <returns>A new MyLine object representing the perpendicular line.</returns>
+        </member>
+        <member name="M:DynamoGeometries.MyLine.GetSegmentLength(DynamoGeometries.MyLine)">
+            <summary>
+            Gets the length of the specified line segment.
+            </summary>
+            <param name="mySegment">The line segment.</param>
+            <returns>The length of the line segment.</returns>
+        </member>
+        <member name="M:DynamoGeometries.MyLine.SetSegmentEndPoint(DynamoGeometries.MyLine,Autodesk.DesignScript.Geometry.Point)">
+            <summary>
+            Sets the end point of the specified line segment.
+            </summary>
+            <param name="mySegment">The line segment.</param>
+            <param name="newEndPoint">The new end point.</param>
+            <returns>The updated line segment.</returns>
+        </member>
     </members>
 </doc>
